@@ -42,6 +42,7 @@ const FlightBooker: React.FC = () => {
                     <option value='return'>Return Flight</option>
                 </select>
                 <input
+                    aria-label='Departure date'
                     type='date'
                     value={departureDate}
                     onChange={(event) => {
@@ -52,6 +53,7 @@ const FlightBooker: React.FC = () => {
 
                 {flightOption === 'return' && (
                     <input
+                        aria-label='Return date'
                         type='date'
                         value={returnDate}
                         min={departureDate}
