@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./PaginationUsers.css";
+import "./DataTable.css";
 import users from "../../data/user.json";
 
 type User = (typeof users)[number];
