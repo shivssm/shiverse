@@ -1,0 +1,19 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --header-bg-color: aqua;
+    --nav-bg-color: aliceblue;
+    --main-bg-color: lightyellow;
+    --aside-bg-color: bisque;
+    --footer-bg-color: #7cabce;
+  }
+  
+  [data-theme="dark"] {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --header-bg-color: #333333;
+    --nav-bg-color: #444444;
+    --main-bg-color: #1e1e1e;
+    --aside-bg-color: #555555;
+    --footer-bg-color: #222222;
+  }
