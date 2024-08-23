@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 * {
@@ -18,7 +20,7 @@ footer {
 }
 
 header {
-  background-color: aqua;
+  background-color: var(--header-bg-color);
   height: 60px;
 }
 
@@ -28,23 +30,23 @@ header {
 }
 
 nav {
-  background-color: aliceblue;
+  background-color: var(--nav-bg-color);
   flex-shrink: 0;
   width: 100px;
 }
 
 main {
-  background-color: blanchedalmond;
+  background-color: var(--main-bg-color);
   flex-grow: 1;
 }
 
 aside {
-  background-color: bisque;
+  background-color: var(--aside-bg-color);
   flex-shrink: 0;
   width: 100px;
 }
 
 footer {
-  background-color: #7cabce;
+  background-color: var(--footer-bg-color);
   height: 100px;
 }
